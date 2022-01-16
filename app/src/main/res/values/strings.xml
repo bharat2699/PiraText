@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PiraText</string>
+    <string name="welcome">Welcome to IntelliPirates PiraText, we detect text from your images and provide a web interface to edit detected text.</string>
+    <string name="capture_image">Click to Start</string>
+    <string name="converted_text">Detected text will appear here:</string>
+    <string name="snap">Take a Picture</string>
+    <string name="detect">See Detected Text</string>
+    <string name="piratext_logo">PiraText Logo</string>
+    <string name="SignInRequest">KINDLY SIGN IN TO USE WEB INTERFACE:</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

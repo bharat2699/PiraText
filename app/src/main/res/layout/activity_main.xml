@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/piratext"
+
+        />
+
+    <TextView
+        android:id="@+id/idTVHead"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@id/idIVLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+
+        />
+
+    <Button
+        android:id="@+id/idBtnCapture"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHead"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/capture_image"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/green"
+        app:icon="@android:drawable/ic_input_add"
+
+        />
+
+    <TextView
+        android:id="@+id/idTVNote"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_below="@id/idBtnCapture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/SignInRequest"
+        android:textAlignment="center"
+        android:textColor="#DFFF0909"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/idBtnGSignIn"
+        style="@style/CardView.Dark"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVNote"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

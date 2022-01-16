@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456735986486",
+    "project_id": "piratext-piratecara",
+    "storage_bucket": "piratext-piratecara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456735986486:android:dbcbd508b0a8760ce79997",
+        "android_client_info": {
+          "package_name": "com.intellipirates.piratext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456735986486-cbj27ghbm26e4lb9l413clcipsfkkai8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intellipirates.piratext",
+            "certificate_hash": "8fda78d282f09edc81b15285b62f32d6de67cf59"
+          }
+        },
+        {
+          "client_id": "456735986486-5aurgrv8u365vkkd2cfb0076uno4puaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsfRYnAbenMJuNjO3VxcCDxcjq_TokNlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456735986486-5aurgrv8u365vkkd2cfb0076uno4puaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

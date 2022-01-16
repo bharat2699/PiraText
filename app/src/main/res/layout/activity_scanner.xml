@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".ScannerActivity">
+
+    <ImageView
+        android:id="@+id/idIVCaptureImage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/piratext_logo"
+        android:src="@drawable/piratext"
+
+        />
+
+    <TextView
+        android:id="@+id/idTVDetectedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idIVCaptureImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/converted_text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+
+
+        />
+
+    <Button
+        android:id="@+id/idBtnSnap"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVDetectedText"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:text="@string/snap"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        app:backgroundTint="@color/green"
+        app:icon="@android:drawable/ic_menu_camera"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+
+    <Button
+        android:id="@+id/idBtnDetect"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_back"
+        android:text="@string/detect"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        app:backgroundTint="@color/green"
+        app:icon="@android:drawable/ic_menu_agenda"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_centerVertical="true"
+
+        />
+</RelativeLayout>
